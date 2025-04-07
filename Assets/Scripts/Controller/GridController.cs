@@ -10,4 +10,9 @@ public class GridController
     {
         Model = new GridModel(width, height);
     }
+
+    public void OnCellClicked(int x, int y)
+    {
+        Debug.Log($"Клик по клетке [{x}, {y}]");
+    }
 }

@@ -9,6 +9,6 @@ public class GridStarter : MonoBehaviour
     private void Start()
     {
         var controller = new GridController(width, height);
-        gridView.CreateGrid(controller.Model);
+        gridView.CreateGrid(controller.Model, controller);
     }
 }
